@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>The Midnight Library</title>
+</head>
+<body>
+    <h1 class="page-title">
+        <a href="story-mode.html">The Midnight Library</a>
+      </h1>
+    <div class="container">
+        <div class="form-container sign-in-form">
+            <h2 class="form-title">Sign In</h2>
+            <form>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <label  for="remember"><input type="checkbox" id="remember" name="remember"> Remember me</label>
+                <br><br><button type="submit">Sign In</button>
+            </form>
+            <a href="forgot-password.html">Forgot Password?</a>
+        </div>
+        <div class="form-container sign-up-form">
+            <h2 class="form-title">Sign Up</h2>
+            <button id="mode" >change mode!</button>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                <button type="submit">Sign Up</button>
+            </form>
+           <br><br> <p style="color: rgb(192, 192, 192)">Or sign up with:</p>
+           <button class="google-button"></button>
+
+           <button class="instagram-button"></button>
+           <script src="script.js"></script
+        </div>
+    </div>
+</body>
+</html>
